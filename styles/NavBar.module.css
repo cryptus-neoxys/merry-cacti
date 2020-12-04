@@ -1,0 +1,26 @@
+.container {
+  background: none;
+  padding: 0.25rem 2rem;
+  height: 4rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navItem {
+  margin: 0 0.25rem;
+  padding: 0 1rem;
+}
