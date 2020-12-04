@@ -1,20 +1,10 @@
 .container {
   height: 100vh;
-  background-color: #f6d8ae;
+  background-color: #2cdb52;
   /* background-image: url("https://i.gifer.com/Vr6.gif"); */
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.bgImg {
-  width: 40vw;
-}
-
-@media only screen and (min-width: 768px) {
-  .bgImg {
-    width: 100vh;
-  }
 }
