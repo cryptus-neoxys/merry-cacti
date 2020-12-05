@@ -6,7 +6,7 @@ export const IndexWrapper = styled.div`
     max-width: 80vw;
     margin: 6em auto;
     display: flex;
-    height: 60vh;
+    height: 65vh;
     align-items: center;
     justify-content: center;
     background-image: url("https://i.gifer.com/1Ktv.gif");
