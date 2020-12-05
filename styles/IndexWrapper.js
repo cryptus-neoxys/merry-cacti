@@ -21,7 +21,7 @@ export const IndexWrapper = styled.div`
   }
 
   .info {
-    margin-bottom: 4em;
+    margin-bottom: 5em;
     .info-group {
       display: flex;
       flex-direction: column;
