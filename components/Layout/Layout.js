@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import Navbar from "./../NavBar/NavBar";
 import { LayoutWrapper } from "./LayoutWrapper";
+import ChatBot from "../ChatBot/ChatBot";
 
 export default function Layout({
   children,
@@ -20,7 +21,7 @@ export default function Layout({
       </div>
 
       <div className="main">{children}</div>
-      {/* <footer>{"I`m here to stay"}</footer> */}
+      <footer><ChatBot/></footer>
     </LayoutWrapper>
   );
 }
