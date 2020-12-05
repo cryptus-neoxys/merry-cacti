@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 
-import Navbar from "./../NavBar/NavBar";
+import Nav from "../Nav/Nav";
 import { LayoutWrapper } from "./LayoutWrapper";
 import ChatBot from "../ChatBot/ChatBot";
 
@@ -12,18 +12,18 @@ export default function Layout({
   return (
     <LayoutWrapper>
       <Head>
-        <title>{title}</title>
+        <title>Merry Cacti | {title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="header">
-        <Navbar />
+        <Nav />
       </div>
 
       <div className="main">{children}</div>
-      <footer>
+      {/* <footer>
         <ChatBot />
-      </footer>
+      </footer> */}
     </LayoutWrapper>
   );
 }

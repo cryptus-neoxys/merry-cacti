@@ -1,14 +1,17 @@
 import Link from "next/link";
-import { NavBarWrapper } from "./NavBarWrapper";
+import { NavWrapper } from "./NavWrapper";
 
-const NavBar = () => {
+const Nav = () => {
   return (
-    <NavBarWrapper>
+    <NavWrapper>
       <div className="nav-container">
         <div className="nav-logo">
           <Link href="/">Merry Cacti</Link>
         </div>
         <div className="nav-items">
+          <div className="nav-item">
+            <Link href="/">Home</Link>
+          </div>
           <div className="nav-item">
             <Link href="/reddit">Reddit</Link>
           </div>
@@ -20,8 +23,8 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-    </NavBarWrapper>
+    </NavWrapper>
   );
 };
 
-export default NavBar;
+export default Nav;

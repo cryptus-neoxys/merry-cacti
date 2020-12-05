@@ -3,9 +3,9 @@ import { AboutWrapper } from "../styles/AboutWrapper";
 
 export default function About() {
   return (
-    <Layout>
+    <Layout title={"About"}>
       <AboutWrapper>
-        <div>About</div>
+        <div className="heading">About</div>
       </AboutWrapper>
     </Layout>
   );

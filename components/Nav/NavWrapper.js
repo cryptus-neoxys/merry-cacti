@@ -1,21 +1,27 @@
 import styled from "styled-components";
 
-export const IndexWrapper = styled.div`
-  .container {
-    padding: 0;
-    max-width: 80vw;
-    margin: 6em auto;
+export const NavWrapper = styled.div`
+  .nav-container {
+    padding: 1em;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("https://i.gifer.com/1Ktv.gif");
-    background-position: center;
-    background-repeat: no-repeat;
-    p {
-      font-family: playfair-display;
-      margin: 0;
-      font-size: 5em;
-      text-align: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1.2em;
+    font-weight: bold;
+    .nav-logo {
+      font-size: 1.2em;
+      font-weight: normal;
+    }
+    .nav-items {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      .nav-item {
+        /* margin: 0 1em; */
+        margin-bottom: 0.5em;
+      }
     }
   }
 
@@ -25,10 +31,12 @@ export const IndexWrapper = styled.div`
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .container {
-      width: 70vw;
-      p {
-        font-size: 10em;
+    .nav-container {
+      .nav-items {
+        flex-direction: row;
+        .nav-item {
+          margin: 0 1em;
+        }
       }
     }
   }

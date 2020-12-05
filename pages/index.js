@@ -3,11 +3,11 @@ import { IndexWrapper } from "../styles/IndexWrapper";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title={"Home"}>
       <IndexWrapper>
         <div className="container">
           <p>
-            HANG IN <br /> THERE
+            <span>HANG IN</span> <br /> THERE
           </p>
         </div>
       </IndexWrapper>

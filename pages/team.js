@@ -3,7 +3,7 @@ import { TeamWrapper } from "../styles/TeamWrapper";
 
 export default function About() {
   return (
-    <Layout>
+    <Layout title={"Team"}>
       <TeamWrapper>
         <div className="heading">Team</div>
         <div className="team-group">
