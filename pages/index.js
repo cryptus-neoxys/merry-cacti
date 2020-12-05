@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <Layout>
       <IndexWrapper>
-        <div className="heading">Home</div>
+        <div className="container">
+          <p>
+            HANG IN <br /> THERE
+          </p>
+        </div>
       </IndexWrapper>
     </Layout>
   );
