@@ -8,7 +8,10 @@ export const Comment = ({ data }) => {
       <div className="main">
         <div className="comment-container">
           <div className="meta">
-            <a className="blue"> {data.author}</a>{" "}
+            <a href="https://www.reddit.com/user/Merry-Cacti/" className="blue">
+              {" "}
+              {data.author}
+            </a>{" "}
             <a href={data.link_permalink} className="mute-gray">
               {data.link_title}
             </a>{" "}
@@ -19,7 +22,9 @@ export const Comment = ({ data }) => {
             <div className="left-border"></div>
             <div className="container">
               <div className="header">
-                {data.author}{" "}
+                <span href="https://www.reddit.com/user/Merry-Cacti/">
+                  {data.author}{" "}
+                </span>
                 <span className="mute-gray">
                   {" "}
                   {data.score} point · {moment(data.created * 1000).fromNow()}
