@@ -7,6 +7,16 @@ export const RedditWrapper = styled.div`
       font-size: 40px;
       text-align: center;
     }
+    .info {
+      font-size: 20px;
+      width: 80%;
+      text-align: center;
+      margin: 30px auto;
+    }
+    .comments {
+      margin-top: 10px;
+      margin: 0 auto;
+    }
   }
 
   /* Extra small devices (phones, 600px and down) */
@@ -17,6 +27,14 @@ export const RedditWrapper = styled.div`
   @media only screen and (min-width: 600px) {
     .main {
       margin-top: 100px;
+      .info {
+        width: 50%;
+        text-align: center;
+      }
+      .comments {
+        margin-top: 100px;
+        max-width: 450px;
+      }
     }
   }
 
