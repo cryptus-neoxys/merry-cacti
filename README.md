@@ -71,8 +71,13 @@ Include more functionality like increasing the accuracy of the bot-replies.
 
 #### The Website
 
+- [x] NEXTjs / ReactJS
+- [x] Styled Components
+- [x] Material UI
 - [x] HTML
+- [x] JavaScript
 - [x] CSS
+- [x] Deployed with Vercel
 
 #### The Reddit Bot
 - [x] Python
@@ -87,9 +92,8 @@ Include more functionality like increasing the accuracy of the bot-replies.
 
 ### Try it out 👇🏽
 
-- 🤖 [Tensorflow.js Model](https://teachablemachine.withgoogle.com/models/f4JB966HD/)
-- 🕸 [The Website](https://Pose-Bot.vercel.app/#home)
-- 🖥 [The Figma Prototype](https://www.figma.com/file/utEHzshb9zHSB0v3Kp7Rby/Untitled?node-id=0%3A1)
+- 🌵 [Reddit Profile](https://www.reddit.com/user/Merry-Cacti)
+- 🕸 [The Website](https://merry-cacti.vercel.app/)
 
 ### Cheers to the team 🥂
 
