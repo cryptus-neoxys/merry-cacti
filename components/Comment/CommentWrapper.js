@@ -5,6 +5,10 @@ export const CommentWrapper = styled.div`
     font-size: 14px;
     margin: 20px 5px;
 
+    a:hover {
+      text-decoration: underline;
+    }
+
     .comment-container {
       border: 1.5px solid #bbb;
       border-radius: 3px;

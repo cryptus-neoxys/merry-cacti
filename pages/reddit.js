@@ -25,10 +25,8 @@ export default function Reddit() {
         <div className="main">
           <div className="heading">Reddit</div>
           <div className="info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
-            Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu
-            venenatis.
+            Here are some replies to comments by the bot. The bot constantly
+            looks for such comments.
           </div>
           <div className="comments">
             {data
