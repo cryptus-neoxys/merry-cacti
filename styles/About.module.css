@@ -4,9 +4,13 @@
   /* background-image: url("https://i.gifer.com/Vr6.gif"); */
   background-size: cover;
   background-position: center center;
+}
+
+.content {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: calc(100vh - 2rem);
 }
 
 .bgImg {
@@ -19,11 +23,17 @@
   .bgImg {
     width: 80vw;
   }
+  .content {
+    height: calc(100vh - 2.6rem);
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .bgImg {
     width: 60vw;
+  }
+  .content {
+    height: calc(100vh - 4rem);
   }
 }
 
