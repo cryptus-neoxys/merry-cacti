@@ -1,23 +1,30 @@
+import React from "react";
+
 import { CommentWrapper } from "./CommentWrapper";
 
-export default function Comment() {
+export const Comment = () => {
   return (
     <CommentWrapper>
-      <div className="comment-container">
-        <div className="meta">
-          <div className="comment-icon">COM</div>
-          <div className="meta-bod">
-            <p>
-              <a href="https://www.reddit.com/user/Merry-Cacti">Merry Cacti </a>
-              <span className="mute">commented on </span> I know how to be
-              happy.. <span className="loud">r/SuicideWatch </span>
-              <span>Posted by u/Exteras</span>
-            </p>
+      <div className="main">
+        <div className="comment-container">
+          <div className="meta">
+            <a className="blue"> Merry-Cacti</a>{" "}
+            <span className="mute-gray">commented on Luvox</span> •{" "}
+            <a className="bold">r/depression</a>•{" "}
+            <span className="mute-gray">Posted byu/makaveli199010</span>
+          </div>
+          <div className="body">
+            <div className="left-border"></div>
+            <div className="container">
+              <div className="header">Merry-Cacti 1 point · 6 hours ago</div>
+              <div className="comment">
+                you are such a huge inspiration to many of us
+              </div>
+              <div className="response">Reply Share</div>
+            </div>
           </div>
         </div>
-        <div></div>
       </div>
-      <Comment />
     </CommentWrapper>
   );
-}
+};
