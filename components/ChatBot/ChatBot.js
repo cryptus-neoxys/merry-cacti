@@ -8,7 +8,28 @@ const ChatBot = () => {
   const [Chat, setChat] = useState([]);
   const [val, setVal] = useState("");
 
-  const replies = ["Hi", "How are you", "Test Message 1", "Test Message 2"];
+  const replies = [
+    "As I see it, yes.",
+    "Ask again later.",
+    "Better not tell you now.",
+    "Cannot predict now.",
+    "Concentrate and ask again.",
+    "Don’t count on it.",
+    "It is certain.",
+    "It is decidedly so.",
+    "Most likely.",
+    "My reply is no.",
+    "My sources say no.",
+    "Outlook not so good.",
+    "Outlook good.",
+    "Reply hazy, try again.",
+    "Signs point to yes.",
+    "Very doubtful.",
+    "Without a doubt.",
+    "Yes.",
+    "Yes – definitely.",
+    "You may rely on it.",
+  ];
   const [repCounter, setCounter] = useState(0);
 
   const handleKeyDown = (event) => {
@@ -22,10 +43,10 @@ const ChatBot = () => {
       ...Chat,
       {
         user: "me",
-        message: replies[repCounter],
+        message: replies[Math.floor(Math.random() * replies.length)],
       },
     ]);
-    setCounter(repCounter + 1);
+    // setCounter(repCounter + 1);
   };
 
   const addMessage = () => {
@@ -48,7 +69,13 @@ const ChatBot = () => {
       }
     } else {
       setCollapse(true);
-      addReply();
+      setChat([
+        ...Chat,
+        {
+          user: "me",
+          message: "Hi there.",
+        },
+      ]);
     }
   }, [Chat]);
 
