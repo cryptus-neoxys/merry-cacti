@@ -19,6 +19,29 @@ export const IndexWrapper = styled.div`
     }
   }
 
+  .info {
+    .info-group {
+      display: flex;
+      flex-direction: column;
+      .info-img {
+        width: 90%;
+      }
+      .desc {
+        width: 90%;
+        font-size: 20px;
+        font-family: playfair-display;
+        padding: 1em;
+      }
+    }
+
+    .text-right {
+      text-align: right;
+    }
+    .column-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
   }
@@ -35,6 +58,19 @@ export const IndexWrapper = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+    .info {
+      .info-group {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .desc {
+          width: 50%;
+        }
+        .info-img {
+          width: 30%;
+        }
+      }
+    }
   }
 
   /* Large devices (laptops/desktops, 992px and up) */

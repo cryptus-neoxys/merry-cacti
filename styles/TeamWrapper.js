@@ -21,6 +21,7 @@ export const TeamWrapper = styled.div`
         .member-name {
           font-size: 20px;
           margin: 20px 0px;
+          margin-bottom: 5px;
         }
         .member-image {
           width: 200px;

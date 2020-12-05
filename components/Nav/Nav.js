@@ -7,7 +7,7 @@ const Nav = () => {
     <NavWrapper>
       <div className="nav-container">
         <div className="nav-logo">
-          <Link href="/">Merry Cacti</Link>
+          <Link href="/">🌵 Merry Cacti </Link>
         </div>
         <div className="nav-items">
           <div className="nav-item">
