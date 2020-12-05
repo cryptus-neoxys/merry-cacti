@@ -5,7 +5,7 @@ export default function About() {
   return (
     <Layout>
       <TeamWrapper>
-        <div>About</div>
+        <div>Team</div>
       </TeamWrapper>
     </Layout>
   );

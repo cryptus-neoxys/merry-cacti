@@ -1,11 +1,15 @@
-import NavBar from "../components/NavBar";
-
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
+import Layout from "./../components/Layout/Layout";
+import { IndexWrapper } from "../styles/IndexWrapper";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <NavBar />
-    </div>
+    <Layout>
+      <IndexWrapper>
+        <div className="main">
+          <div className="heading">Home</div>
+        </div>
+      </IndexWrapper>
+    </Layout>
   );
 }
