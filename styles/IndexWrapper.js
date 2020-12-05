@@ -13,7 +13,7 @@ export const IndexWrapper = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     p {
-      font-family: playfair-display;
+      font-family: "playfair-display";
       margin: 0;
       font-size: 6em;
       text-align: center;
@@ -31,7 +31,7 @@ export const IndexWrapper = styled.div`
       .desc {
         width: 90%;
         font-size: 20px;
-        font-family: playfair-display;
+        font-family: "playfair-display";
         padding: 1em;
       }
     }
