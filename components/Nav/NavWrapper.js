@@ -20,7 +20,7 @@ export const NavWrapper = styled.div`
 
       .nav-item {
         /* margin: 0 1em; */
-        margin-bottom: 0.5em;
+        display: none;
       }
     }
   }
@@ -36,6 +36,10 @@ export const NavWrapper = styled.div`
         flex-direction: row;
         .nav-item {
           margin: 0 1em;
+          display: block;
+        }
+        .nav-menu {
+          display: none;
         }
       }
     }

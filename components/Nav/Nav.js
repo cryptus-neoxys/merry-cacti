@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NavWrapper } from "./NavWrapper";
+import NavMenu from "../NavMenu/NavMenu";
 
 const Nav = () => {
   return (
@@ -20,6 +21,9 @@ const Nav = () => {
           </div>
           <div className="nav-item">
             <Link href="/team">Team</Link>
+          </div>
+          <div className="nav-menu">
+            <NavMenu />
           </div>
         </div>
       </div>

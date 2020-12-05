@@ -5,7 +5,9 @@ export default function Reddit() {
   return (
     <Layout title={"Reddit"}>
       <RedditWrapper>
-        <div className="heading">Reddit</div>
+        <div className="main">
+          <div className="heading">Reddit</div>
+        </div>
       </RedditWrapper>
     </Layout>
   );
