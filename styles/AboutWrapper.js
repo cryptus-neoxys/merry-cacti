@@ -20,9 +20,13 @@ export const AboutWrapper = styled.div`
       .gif {
         width: 100%;
       }
+      .heading {
+        font-size: 32px;
+        margin: 30px 0 30px 0;
+      }
       .info {
         font-size: 20px;
-        padding: 1em 0;
+        padding: 2em 0 0 0;
         text-align: justify;
       }
     }

@@ -33,6 +33,7 @@ export const IndexWrapper = styled.div`
         font-size: 20px;
         font-family: "playfair-display";
         padding: 1em;
+        text-align: center;
       }
     }
 
@@ -43,9 +44,6 @@ export const IndexWrapper = styled.div`
       margin: 1em auto;
     }
 
-    .text-right {
-      text-align: right;
-    }
     .text-center {
       text-align: center;
     }
@@ -82,9 +80,13 @@ export const IndexWrapper = styled.div`
         align-items: center;
         .desc {
           width: 50%;
+          text-align: left;
         }
         .info-img {
           width: 30%;
+        }
+        .text-right {
+          text-align: right;
         }
       }
     }
