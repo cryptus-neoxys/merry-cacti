@@ -4,6 +4,7 @@ import Head from "next/head";
 import Nav from "../Nav/Nav";
 import { LayoutWrapper } from "./LayoutWrapper";
 import ChatBot from "../ChatBot/ChatBot";
+import Footer from "./../Footer/Footer";
 
 export default function Layout({
   children,
@@ -21,8 +22,9 @@ export default function Layout({
       </div>
 
       <div className="main">{children}</div>
+      <ChatBot />
       <footer>
-        <ChatBot />
+        <Footer />
       </footer>
     </LayoutWrapper>
   );

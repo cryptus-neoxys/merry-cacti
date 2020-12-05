@@ -20,6 +20,7 @@ export const IndexWrapper = styled.div`
   }
 
   .info {
+    margin-bottom: 4em;
     .info-group {
       display: flex;
       flex-direction: column;
@@ -34,8 +35,23 @@ export const IndexWrapper = styled.div`
       }
     }
 
+    .center-info {
+      font-size: 20px;
+      font-family: playfair-display;
+      width: 90%;
+      margin: 1em auto;
+    }
+
     .text-right {
       text-align: right;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .source {
+      text-align: right;
+      padding: 2em;
+      font-size: 15px;
     }
     .column-reverse {
       flex-direction: column-reverse;
