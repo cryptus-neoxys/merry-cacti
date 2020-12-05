@@ -21,7 +21,9 @@ export default function Layout({
       </div>
 
       <div className="main">{children}</div>
-      <footer><ChatBot/></footer>
+      <footer>
+        <ChatBot />
+      </footer>
     </LayoutWrapper>
   );
 }
