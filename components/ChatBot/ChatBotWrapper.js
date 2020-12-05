@@ -5,15 +5,16 @@ export const ChatBotWrapper = styled.div`
     position: fixed;
     bottom: 15px;
     right: 15px;
+    width: 300px;
     .switch {
       display: block;
       border-radius: 50%;
-      padding: 15px;
       outline: none;
       border: none;
       height: 60px;
+      width: 60px;
       margin: 5px 5px 5px auto;
-      background-color: #0d69f2;
+      background-color: black;
       color: #fff;
     }
     .chat-container {
@@ -21,9 +22,10 @@ export const ChatBotWrapper = styled.div`
       box-shadow: 0 0 10px #0004;
       overflow: hidden;
       background-color: white;
+
       .chat-head {
         display: block;
-        background-color: #0d66ff;
+        background-color: black;
         padding: 7px;
         text-align: center;
         color: #fff;
@@ -33,6 +35,7 @@ export const ChatBotWrapper = styled.div`
       .chat-messages {
         height: 240px;
         overflow-y: auto;
+        padding: 7px;
         .remote {
           width: 100%;
           margin-bottom: 10px;
@@ -43,7 +46,7 @@ export const ChatBotWrapper = styled.div`
             min-width: 50px;
             padding: 5px 15px;
             font-size: 1.3em;
-            background-color: #0d69f2;
+            background-color: black;
             color: #fff;
             border-radius: 0 20px 20px 20px;
             margin-left: 5px;
@@ -69,25 +72,28 @@ export const ChatBotWrapper = styled.div`
       }
       .chat-input {
         display: inline;
-        margin-bottom: 5px;
+        margin: 5px;
         overflow: hidden;
         border-radius: 5px;
         input {
-          padding: 2px 8px;
-          border: 1px solid #00f;
+          padding: 2px 10px;
+          border: 1px solid black;
           outline: none;
-          height: 30px;
+          height: 35px;
           border-radius: 15px 0px 0px 15px;
+          width: 85%;
+          margin-bottom: 5px;
         }
         button {
-          padding: 6px 16px;
+          padding: 2px 7px;
           outline: none;
-          border: none;
-          height: 36px;
+          border: 1px solid black;
+          height: 35px;
           border-radius: 0 15px 15px 0;
           margin: 5px 5px 5px auto;
-          background-color: #0d69f2;
+          background-color: black;
           color: #fff;
+          cursor: pointer;
         }
       }
     }

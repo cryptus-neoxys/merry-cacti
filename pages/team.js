@@ -3,6 +3,7 @@ import { TeamWrapper } from "../styles/TeamWrapper";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 export default function About() {
   return (
@@ -19,14 +20,15 @@ export default function About() {
               />
               <div className="member-name">Aniket</div>
               <div className="socials">
-                <a href="">
+                <a href="https://github.com/DiKwickley?">
                   <GitHubIcon />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/dikwickley/">
                   <LinkedInIcon />
                 </a>
-                <a href="">
-                  <InstagramIcon />
+
+                <a href="https://twitter.com/dikwickley">
+                  <TwitterIcon />
                 </a>
               </div>
             </div>
@@ -38,14 +40,15 @@ export default function About() {
               />
               <div className="member-name">Apurva</div>
               <div className="socials">
-                <a href="">
+                <a href="https://github.com/Apurva-tech">
                   <GitHubIcon />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/apurva-sharma-46a091190/">
                   <LinkedInIcon />
                 </a>
+
                 <a href="">
-                  <InstagramIcon />
+                  <TwitterIcon />
                 </a>
               </div>
             </div>
@@ -57,14 +60,15 @@ export default function About() {
               />
               <div className="member-name">Dev</div>
               <div className="socials">
-                <a href="">
+                <a href="https://github.com/cryptus-neoxys">
                   <GitHubIcon />
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/cryptus_neoxys/">
                   <LinkedInIcon />
                 </a>
-                <a href="">
-                  <InstagramIcon />
+
+                <a href="https://twitter.com/cryptus_neoxys">
+                  <TwitterIcon />
                 </a>
               </div>
             </div>
@@ -76,14 +80,15 @@ export default function About() {
               />
               <div className="member-name">Vinayak</div>
               <div className="socials">
-                <a href="">
+                <a href="https://github.com/gvinayakgupta">
                   <GitHubIcon />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/vinayakguptaa/">
                   <LinkedInIcon />
                 </a>
-                <a href="">
-                  <InstagramIcon />
+
+                <a href="https://twitter.com/vinayakguptaa">
+                  <TwitterIcon />
                 </a>
               </div>
             </div>

@@ -14,7 +14,7 @@ export const IndexWrapper = styled.div`
     p {
       font-family: playfair-display;
       margin: 0;
-      font-size: 5em;
+      font-size: 6em;
       text-align: center;
     }
   }

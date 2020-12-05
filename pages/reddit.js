@@ -12,7 +12,6 @@ export default function Reddit() {
     const data = await axios.get(
       "https://www.reddit.com/user/Merry-Cacti.json"
     );
-    console.log(data);
     setData(data.data.data.children);
   };
 

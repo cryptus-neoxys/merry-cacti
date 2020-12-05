@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChatBotWrapper } from "./ChatBotWrapper";
+import QuestionAnswerIcon from "@material-ui/icons/QuestionAnswer";
+import SendIcon from "@material-ui/icons/Send";
 
 const ChatBot = () => {
   const [collapse, setCollapse] = useState(true);
@@ -45,7 +47,7 @@ const ChatBot = () => {
         }, 500);
       }
     } else {
-      setCollapse(false);
+      setCollapse(true);
       addReply();
     }
   }, [Chat]);
@@ -76,10 +78,12 @@ const ChatBot = () => {
               />
               <button
                 onClick={() => {
-                  addMessage;
+                  if (val !== "") {
+                    addMessage();
+                  }
                 }}
               >
-                Send
+                <SendIcon style={{ fontSize: "13px" }} />
               </button>
             </section>
           </div>
@@ -89,8 +93,9 @@ const ChatBot = () => {
           onClick={() => {
             setCollapse(!collapse);
           }}
+          style={{ cursor: "pointer" }}
         >
-          Chat
+          <QuestionAnswerIcon style={{ color: "white" }} />
         </button>
       </div>
     </ChatBotWrapper>

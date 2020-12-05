@@ -3,7 +3,6 @@ import moment from "moment";
 import { CommentWrapper } from "./CommentWrapper";
 
 export const Comment = ({ data }) => {
-  console.log("comment:", data);
   return (
     <CommentWrapper>
       <div className="main">
