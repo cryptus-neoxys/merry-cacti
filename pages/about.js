@@ -1,12 +1,12 @@
 import Layout from "../components/Layout/Layout";
-import { TeamWrapper } from "../styles/TeamWrapper";
+import { AboutWrapper } from "../styles/AboutWrapper";
 
 export default function About() {
   return (
     <Layout>
-      <TeamWrapper>
+      <AboutWrapper>
         <div>About</div>
-      </TeamWrapper>
+      </AboutWrapper>
     </Layout>
   );
 }
