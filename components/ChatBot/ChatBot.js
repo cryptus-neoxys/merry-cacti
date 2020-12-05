@@ -30,7 +30,6 @@ const ChatBot = () => {
     "Yes – definitely.",
     "You may rely on it.",
   ];
-  const [repCounter, setCounter] = useState(0);
 
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
@@ -46,7 +45,6 @@ const ChatBot = () => {
         message: replies[Math.floor(Math.random() * replies.length)],
       },
     ]);
-    // setCounter(repCounter + 1);
   };
 
   const addMessage = () => {
@@ -77,6 +75,8 @@ const ChatBot = () => {
         },
       ]);
     }
+    let chatScroll = document.getElementById('messages')
+    if(chatScroll) chatScroll.scroll({ top: chatScroll.scrollHeight, behavior: 'smooth' });
   }, [Chat]);
 
   return (
@@ -87,7 +87,7 @@ const ChatBot = () => {
         ) : (
           <div className="chat-container">
             <div className="chat-head">Merry Cacti</div>
-            <section className="chat-messages">
+            <section className="chat-messages" id="messages">
               {Chat.map((mes) => (
                 <div className={mes.user === "user" ? "self" : "remote"}>
                   <div>{mes.message}</div>
