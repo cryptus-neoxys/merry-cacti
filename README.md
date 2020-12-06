@@ -17,7 +17,7 @@ We at first extracted the data to train our model by using the reddit json file 
 
 1. The website UI/UX was designed using Figma. 
 2. We used Python to create the bot. We extracted the data from a subreddit json file and processed the required data to create the final file.  
-3. For training our model we used scikit-learn TFDVectorizer which gave the best model accuracy of 95%, to create predictions if the post depicts suicdal or depressed behaviour.
+3. For training our model we used scikit-learn TfiedfVectorizer which gave the best model accuracy of 95%, to create predictions if the post depicts suicdal or depressed behaviour.
 
 
 ### Challenges we ran into 🧠
@@ -29,10 +29,11 @@ We at first extracted the data to train our model by using the reddit json file 
 
 ### Accomplishments that we are proud of 😌
 
-We created a fully functional bot which can emphathize with human being and comfort them. We are very proud to share that some comments did help our users and made them feel better themselves. We integrated a chatbot to our website which can help users to talk and make them feel loved and supported. 
+We created a fully functional bot which can emphathize with human being and comfort them. We are very proud to share that some comments did help our users and made them feel better themselves. We integrated a chatbot to our website which can help users to talk and make them feel loved and supported. <strong>One of the bot's comment received the Gold awards, Helpful Award, Wholesome Award and Silver Award.</strong>
 
-<p  align="center"><img height= "400" width = "600" src = "https://github.com/Apurva-tech/files/blob/master/167-points.jpg"></p>
+<img src="https://github.com/Apurva-tech/files/blob/master/GoldAward.jpg" width="425"/> <img src="https://github.com/Apurva-tech/files/blob/master/Helpfulaward.jpg" width="425"/> 
 
+<img src="https://github.com/Apurva-tech/files/blob/master/Wholesomeaward.jpg" width="425"/> <img src="https://github.com/Apurva-tech/files/blob/master/SilverAward.jpg" width="425"/> 
 
 ### What we learned 🤩
 
@@ -55,17 +56,27 @@ Include more functionality like increasing the accuracy of the bot-replies.
 ### Help File 💻
 
 - [x] Clone the repository to your local directory
-- `git clone https://github.com/cryptus-neoxys/posture.git`
+ - `https://github.com/cryptus-neoxys/merry-cacti.git`
+ 
+- [x] Create a reddit developer account and generate API client ID and client secret key 
+ - Add your keys to the script merry_cacti.py
+ 
+```python
+  userAgent = ''
+  cID = ''
+  cSC= ''
+  userN = ''
+  userP =''
+```
 
-- [x] `npm i -g live-server`
-- Install live server to run it locally
+- [x] Now create a virtualenv for your local directory
+ - `pip install virtualenv`
+ - `virtualenv env`
+ - `env\Scripts\activate`
+ - `python merry_cacti.py`
 
-- [x] `live-server .`
-- Go to project directory and launch the website using live-server
+- [x] Keep track of rate limit, check your bot account to see the bot in Action!!
 
-- [x] Voilla the site is up and running on your PC.
-
-- [x] Ctrl + C to stop the live-server!!
 
 ### Built With ⚙
 
