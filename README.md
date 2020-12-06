@@ -31,9 +31,9 @@ We at first extracted the data to train our model by using the reddit json file 
 
 We created a fully functional bot which can emphathize with human being and comfort them. We are very proud to share that some comments did help our users and made them feel better themselves. We integrated a chatbot to our website which can help users to talk and make them feel loved and supported. <strong>One of the bot's comment received the Gold awards, Helpful Award, Wholesome Award and Silver Award.</strong>
 
-<img src="https://github.com/Apurva-tech/files/blob/master/GoldAward.jpg" width="425"/> <img src="https://github.com/Apurva-tech/files/blob/master/Helpfulaward.jpg" width="425"/> 
-
-<img src="https://github.com/Apurva-tech/files/blob/master/Wholesomeaward.jpg" width="425"/> <img src="https://github.com/Apurva-tech/files/blob/master/SilverAward.jpg" width="425"/> 
+|<img src="https://github.com/Apurva-tech/files/blob/master/GoldAward.jpg" width="425"/> | <img src="https://github.com/Apurva-tech/files/blob/master/Helpfulaward.jpg" width="425"/> |
+|---|---|
+|<img src="https://github.com/Apurva-tech/files/blob/master/Wholesomeaward.jpg" width="425"/> | <img src="https://github.com/Apurva-tech/files/blob/master/SilverAward.jpg" width="425"/> |
 
 ### What we learned 🤩
 
